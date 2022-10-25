@@ -1,14 +1,10 @@
-
-import './App.css';
+import Home from './Home/Home.jsx';
+import React from 'react';
 
 function App() {
   return (
-        <div id="wrapper">
-          <div class="main">
-            <p><strong>Chaos will begin soon.</strong></p>
-          </div>
-        </div>       
-  );
+    <Home />
+  )
 }
 
 export default App;
