@@ -6,7 +6,7 @@
     vertical-align: middle;
   }
   
-  p, img {
+  p {
     text-align: center; 
   }
   
@@ -14,3 +14,11 @@
    margin-top: 20%;
   font-size: 35px;       
   }
+
+  img.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -225px;
+  margin-top: -225px; 
+}

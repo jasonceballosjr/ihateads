@@ -7,11 +7,9 @@ function Home() {
           <div id="wrapper">
             <div class="main">
               <p><strong>Chaos will begin soon.</strong></p>
-            </div>
-
-            <div>
-              <img src={ares}/>
-            </div>
+            
+              
+            </div><img class="centered" src={ares}/>
           </div>       
     )
 } 
